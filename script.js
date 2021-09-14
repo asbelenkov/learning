@@ -1,6 +1,12 @@
-let now = new Date();
-let date1 = new Date(now.getFullYear(), now.getMonth(),now.getDate() + 18);
-let date2 = new Date(now.getFullYear(), now.getMonth() + 1, now.getDate() + 8);
-let diff = date2 - date1;
+let start = document.querySelector('#start');
+let stop = document.querySelector('#stop');
 
-console.log(diff / 1000 / 60 / 60 / 24);
+start.addEventListener('click', function func() {
+    let i = 0;
+
+    let timerId = setInterval(() => {
+        console.log('!');
+    }, 1000)
+});
+
+stop.addEventListener('click', function func() {});

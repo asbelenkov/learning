@@ -1,7 +1,9 @@
-.wrapper div{
-    border: 1px solid black;
+#block:not(.active) {
+    display: none;
 }
 
-.wrapper{
-    display: grid;
+
+input, select, option{
+    border-radius: 7px;
+    margin-top: 5px;
 }
